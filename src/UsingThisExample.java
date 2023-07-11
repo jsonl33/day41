@@ -1,4 +1,3 @@
-
 public class UsingThisExample {
 	    public static void main(String[] args) {
 	    	UsingThis u = new UsingThis(); // 외부 클래스 객체 생성
