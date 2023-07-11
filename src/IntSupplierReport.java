@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class IntSupplierReport {
 	public static void main(String[] args) {
@@ -6,8 +7,14 @@ public class IntSupplierReport {
 			return randNum;
 		};
 		
-		for(int i = 1;i<=5;i++) {
-			System.out.println(is.getAsInt());
+		ArrayList<Integer> arrNum = new ArrayList<Integer>();
+		
+		for(int i = 0;i<5;i++) {
+			arrNum.add(is.getAsInt());
+		}
+		
+		for(int x : arrNum) {
+			System.out.println(x);
 		}
 	}
 }
